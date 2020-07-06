@@ -1,0 +1,42 @@
+<?php
+	session_start();
+	include 'includes/db.php';
+
+?>
+
+</script>
+</div>
+
+<body style='background:white;'>
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<header>
+<div style='text-align:center;'>
+	<a href='admin_home.php'><img src='images/admin.png' width=150 height=150/></a>
+</div>
+<div style='text-align:center;color:white;'>
+	<h1>Welcome Admin</h1>
+</div>
+</header>
+<article style='padding:50px;'>
+
+<div class='enquire'>
+<form method='post' action='report1.php'>
+<table align='center'>
+
+</tr>
+<tr>
+	<td><b>Date:</b></td>
+	<td style='padding:10px;'><input type='text' name='date' placeholder='Enter date' ></td>
+</tr>
+<tr>
+
+<td style='padding:30px;'><input type='SUBMIT' name='uploaded-file' value='uploaded'></td>
+<td style='padding:30px;'><input type='SUBMIT' name='deleted-file' value='deleted'></td>
+<td style='padding:30px;'><input type='SUBMIT' name='downloaded-file' value='downloaded'></td>
+	
+	
+</tr>
+</table>
+
+</table>
+</form>

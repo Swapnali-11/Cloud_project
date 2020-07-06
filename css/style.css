@@ -1,0 +1,85 @@
+.btn
+{
+	color:white;
+	background:black;
+	font-weight:bold;
+	padding:5px;
+	border-radius:10px;
+}
+.btn:hover
+{
+	background:white;
+	color:black;
+}
+.links
+{
+	text-decoration:none;
+	color:red;
+	font-weight:bold;
+}
+.user
+{
+	width:30%;
+	background:lightblue;
+	border-radius:8px;
+	box-shadow:8px 8px 8px #888888;
+	position:fixed;
+	top:200px;
+	left:100px;
+	right:100px;
+}
+
+.header
+{
+	padding:10px;
+	background:black;
+	color:white;
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.menu
+{
+	padding: 5px 35px 5px 35px;
+	text-decoration:none;
+	color:white;
+}
+
+.menu:hover
+{
+	color:black;
+	background:white;
+}
+
+.reg
+{
+	background:white;
+	padding:20px;
+}
+
+.footer
+{
+	padding:10px;
+	background:black;
+	color:white;
+	font-size:12pt;
+	font-weight:bold;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	width:100%;
+	text-align:center;	
+}
+
+.pp
+{
+	text-decoration:none;
+}
+
+.confirm
+{
+	text-align:center;
+	font-size: 18pt;
+	font-weight: bold;
+}
